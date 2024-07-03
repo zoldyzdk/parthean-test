@@ -72,9 +72,9 @@ export function DropCard() {
           <AccordionContent className="ml-[12.25px] py-1">
             <h3 className="text-[26px] font-light mb-[10px]">Investment Insight</h3>
             <p className="text-base font-light mb-4">
-              Build a closer relationship with your portfolio with an analyst in your pocket. We'll never make a
-              decision for you or recommend a trade, but we'll keep you informed with custom research so you always know
-              what's going on in the markets.
+              Build a closer relationship with your portfolio with an analyst in your pocket. We&apos;ll never make a
+              decision for you or recommend a trade, but we&apos;ll keep you informed with custom research so you always know
+              what&apos;s going on in the markets.
             </p>
           </AccordionContent>
         </AccordionItem>
