@@ -1,15 +1,9 @@
-import React from 'react';
-import CarouselCard from "@/components/carousel-card";
-import {DropCard} from "@/components/drop-card";
+import {CarouselLearn} from "@/components/carousel-learn";
 
 function Page() {
   return (
-    <div className="h-svh w-svw flex items-center justify-center">
-      {/*<CarouselCard >
-        <div className="flex items-center justify-center w-full h-full">item 1</div>
-        <div>item 2</div>
-      </CarouselCard>*/}
-      <DropCard />
+    <div className="h-[100svh] w-full flex items-center justify-center overflow-visible">
+      <CarouselLearn />
     </div>
   );
 }

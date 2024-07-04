@@ -24,6 +24,6 @@ export function ProgressBar() {
   }, []);
 
   return (
-    <Progress value={widthBar} className="w-[60px] h-1.5"/>
+    <Progress value={widthBar} className="w-[60px] h-1.5 bg-[rgba(0,0,0,.1)]"/>
   );
 }
