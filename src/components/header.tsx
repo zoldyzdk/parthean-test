@@ -11,6 +11,7 @@ export default function Header() {
       width={140}
       height={35}
      alt="Parthean Logo"
+     className="transition-opacity duration-200 ease-in hover:opacity-50 "
     />
    </Link>
    <Link

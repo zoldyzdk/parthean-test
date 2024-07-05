@@ -141,10 +141,8 @@ export default function Home() {
         <DropCard/>
         <div className="flex flex-col gap-9">
           <div className="relative h-[500px] rounded-[20px] mt-4 w-full bg-[#e5ffc8] ">
-            {/*<div className="absolute right-4 top-3 py-1 px-3 rounded-[20px] text-[10px] [background:linear-gradient(rgba(0,0,0,.04),_rgba(0,0,0,.04))]">*/}
               <CarouselCredit />
               <div className="opacity-50">SM004</div>
-            {/*</div>*/}
           </div>
           <div>
             <div className="flex gap-2 mb-3 items-center">
@@ -301,7 +299,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="flex justify-center gap-5 ">
-                  <div className="size-8 rounded-full bg-[#ffb0ff] text-[10px] flex items-center justify-center">01
+                  <div className="size-8 rounded-full bg-[#ffb0ff] text-[10px] flex items-center justify-center">02
                   </div>
                   <div className="max-w-[250px]">
                     <div className="text-[11px]">WE NEVER SELL YOUR DATA</div>
@@ -312,7 +310,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="flex justify-center gap-5 ">
-                  <div className="size-8 rounded-full bg-[#ffb0ff] text-[10px] flex items-center justify-center">01
+                  <div className="size-8 rounded-full bg-[#ffb0ff] text-[10px] flex items-center justify-center">03
                   </div>
                   <div className="max-w-[250px]">
                     <div className="text-[11px]">ANONYMIZED DATA</div>
@@ -343,7 +341,12 @@ export default function Home() {
         <AccordionAnswers />
       </section>
       <section className="px-5 -mx-4 bg-[#1e1e1e] flex flex-col">
-        <div className="mt-[100px] ml-[60px] mr-5 mb-[140px] max-w-[688px]"></div>
+        <div className="mt-[100px] ml-[60px] mr-5 mb-[140px] max-w-[688px]">
+          <div>
+
+          </div>
+          <div></div>
+        </div>
       </section>
     </main>
   );
